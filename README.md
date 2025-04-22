@@ -1,41 +1,54 @@
-# Website
+# 🌐 Sitio Web
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este sitio web ha sido creado con [Docusaurus](https://docusaurus.io/), un generador moderno de sitios web estáticos.
 
-### Installation
+### 📦 Instalación
 
-```
+Para instalar las dependencias necesarias, ejecuta el siguiente comando:
+
+```bash
 $ yarn
 ```
 
-### Local Development
+### 🚀 Desarrollo Local
 
-```
+Para iniciar un servidor de desarrollo local, utiliza el siguiente comando:
+
+```bash
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Este comando inicia un servidor local y abre una ventana del navegador. La mayoría de los cambios se reflejan en vivo sin necesidad de reiniciar el servidor.
 
-### Build
+### 🏗️ Construcción
 
-```
+Para generar contenido estático en el directorio `build`, ejecuta:
+
+```bash
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Este comando genera contenido estático que puede ser servido con cualquier servicio de hosting de contenido estático.
 
-### Deployment
+### 📤 Despliegue
 
-Using SSH:
+#### Usando SSH:
+Si tienes configurado tu SSH en GitHub, puedes usar el siguiente comando para hacer el despliegue:
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+$ GIT_USER=<TuNombreDeUsuarioEnGitHub> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+#### Sin usar SSH:
+Si no usas SSH, asegúrate de haber configurado previamente tu token de GitHub para el despliegue, y usa el siguiente comando:
+
+```bash
+$ yarn deploy
+```
+
+Si estás utilizando GitHub Pages para alojar el sitio, este comando generará el sitio web y lo subirá a la rama `gh-pages`.
+
+---
+
+**Nota:** Asegúrate de tener configurado el archivo `docusaurus.config.js` correctamente con la URL de tu sitio y la ruta de despliegue.
+```
