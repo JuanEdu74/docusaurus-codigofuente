@@ -1,6 +1,7 @@
 # 🌐 Sitio Web
 
 Este sitio web ha sido creado con [Docusaurus](https://docusaurus.io/), un generador moderno de sitios web estáticos.
+Esta es la guía.
 
 ### 📦 Instalación
 
