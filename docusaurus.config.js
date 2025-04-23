@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://juanedu74.github.io',
-  baseUrl: '/docusaurus-codigofuente/',
+  baseUrl: '/docusaurus/',
 
   organizationName: 'JuanEdu74',
   projectName: 'docusaurus-codigofuente',
