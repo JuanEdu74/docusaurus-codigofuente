@@ -8,10 +8,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://juanedu74.github.io',
-  baseUrl: '/docusaurus/',
+  baseUrl: '/docusaurus-codigofuente/',
 
   organizationName: 'JuanEdu74',
   projectName: 'docusaurus-codigofuente',
+
+  deploymentBranch: 'gh-pages', // rama de despliegue
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
