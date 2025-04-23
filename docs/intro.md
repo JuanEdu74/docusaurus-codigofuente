@@ -2,46 +2,26 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Manual Completo para Implementar un Gestor de Contraseñas y su Uso Práctico
 
-Let's discover **Docusaurus in less than 5 minutes**.
+El manejo adecuado de contraseñas es uno de los aspectos más importantes para mantener la seguridad de tus cuentas en línea. Un **gestor de contraseñas** es una herramienta esencial que te permite almacenar, generar y recuperar contraseñas de manera segura. Este manual tiene como objetivo enseñarte cómo implementar tu propio gestor de contraseñas, asegurando la confidencialidad y la integridad de tus credenciales.
 
-## Getting Started
+## ¿Por qué Necesitamos un Gestor de Contraseñas?
 
-Get started by **creating a new site**.
+En el mundo digital actual, la mayoría de los servicios en línea requieren una contraseña para autenticar al usuario. Sin embargo, la cantidad de sitios y aplicaciones que requieren una contraseña ha crecido exponencialmente. Esto genera el siguiente problema:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Contraseñas débiles o repetidas**: Muchos usuarios optan por usar contraseñas simples o las mismas contraseñas en múltiples sitios, lo que pone en riesgo la seguridad de sus cuentas.
+- **Difusión de contraseñas**: Las brechas de seguridad y los hackeos de datos ocurren con frecuencia, exponiendo contraseñas que pueden ser usadas para acceder a cuentas sensibles.
 
-### What you'll need
+Un gestor de contraseñas resuelve estos problemas de manera eficiente, permitiendo que las contraseñas sean largas, únicas y difíciles de adivinar, mientras que el usuario no necesita recordarlas todas.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Objetivo de este Manual
 
-## Generate a new site
+Este manual tiene como objetivo proporcionarte los pasos y las mejores prácticas para crear e implementar un gestor de contraseñas robusto, utilizando criptografía de alto nivel y almacenamiento seguro de datos.
 
-Generate a new Docusaurus site using the **classic template**.
+A lo largo de este tutorial, cubriremos:
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+1. **Los fundamentos de los gestores de contraseñas**.
+2. **Cómo implementar un gestor de contraseñas desde cero**.
+3. **Las mejores prácticas de seguridad en la gestión de contraseñas**.
+4. **Cómo utilizar el gestor de contraseñas en tu vida diaria**.
